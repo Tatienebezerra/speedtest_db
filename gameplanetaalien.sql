@@ -54,6 +54,30 @@ Show tables;
 
 Describe usuario;
 
+/*SPEEDTEST05 - AULA DO DIA 28/09 - CRIANDO A TABELA BLOOM*/
+
+CREATE TABLE bloom
+(
+	id int primary key auto_increment,
+	nome varchar (30)
+);
+
+INSERT INTO bloom (nome)
+    VALUES('memorizar');
+INSERT INTO bloom (nome)
+    VALUES('compreender');
+INSERT INTO bloom (nome)
+    VALUES('aplicar');
+INSERT INTO bloom (nome)
+    VALUES('analisar');
+INSERT INTO bloom (nome)
+    VALUES('avaliar');
+INSERT INTO bloom (nome)
+    VALUES('criar');
+
+SELECT *FROM bloom;
+    
+Describe bloom; 
 
 
 
